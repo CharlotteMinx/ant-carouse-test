@@ -1,0 +1,14 @@
+{
+	"name": "ant-carousel/carousel",
+	"title": "Ant-carousel",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "A carousel componenet that allows placing a interactive points.",
+	"textdomain": "ant-carousel",
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

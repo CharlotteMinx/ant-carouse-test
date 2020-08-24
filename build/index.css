@@ -1,0 +1,120 @@
+.point__manager--wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  white-space: nowrap; }
+  .point__manager--wrapper .components-panel {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+
+.ant-carousel-settings-color-picker .components-base-control__field {
+  display: none; }
+
+.ant-color-picker-wrapper {
+  flex-wrap: wrap; }
+  .ant-color-picker-wrapper p {
+    display: block; }
+
+.wp-block-ant-carousel-carousel .carousel--wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: stretch; }
+  .wp-block-ant-carousel-carousel .carousel--wrapper button {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 15px;
+    justify-content: center; }
+
+.wp-block-ant-carousel-carousel .carousel__image--wrapper {
+  flex: 1; }
+  .wp-block-ant-carousel-carousel .carousel__image--wrapper .image__placeholder {
+    width: 100%;
+    height: auto;
+    visibility: hidden; }
+  .wp-block-ant-carousel-carousel .carousel__image--wrapper div.image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative; }
+    .wp-block-ant-carousel-carousel .carousel__image--wrapper div.image .point {
+      text-align: center;
+      color: white;
+      position: absolute;
+      border-radius: 50%; }
+      .wp-block-ant-carousel-carousel .carousel__image--wrapper div.image .point .number {
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        background-color: orange;
+        font-size: 16px;
+        border-radius: 50%;
+        line-height: 18px;
+        width: 20px;
+        padding: 0;
+        margin: 0;
+        height: 20px; }
+      .wp-block-ant-carousel-carousel .carousel__image--wrapper div.image .point .point__text {
+        position: absolute;
+        line-height: normal;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        color: black;
+        height: auto;
+        white-space: pre-wrap;
+        max-width: 200px;
+        min-width: 200px;
+        padding: 0.4rem; }
+        .wp-block-ant-carousel-carousel .carousel__image--wrapper div.image .point .point__text.top {
+          bottom: calc(100% + 1rem);
+          right: calc(100% - 2rem); }
+          .wp-block-ant-carousel-carousel .carousel__image--wrapper div.image .point .point__text.top:after {
+            border-left: 1rem solid transparent;
+            border-top: 1rem solid transparent;
+            border-bottom: 1rem solid black;
+            transform: rotate(45deg);
+            bottom: calc(-0.5rem - 3px);
+            right: 0rem; }
+        .wp-block-ant-carousel-carousel .carousel__image--wrapper div.image .point .point__text.left {
+          right: calc(100% + 1rem);
+          top: -2rem; }
+          .wp-block-ant-carousel-carousel .carousel__image--wrapper div.image .point .point__text.left:after {
+            border-left: 1rem solid transparent;
+            border-top: 1rem solid transparent;
+            border-right: 1rem solid black;
+            transform: rotate(-45deg);
+            top: calc(0.5rem + 3px);
+            right: calc(-0.5rem - 3px); }
+        .wp-block-ant-carousel-carousel .carousel__image--wrapper div.image .point .point__text.right {
+          left: calc(100% + 1rem);
+          top: -2rem; }
+          .wp-block-ant-carousel-carousel .carousel__image--wrapper div.image .point .point__text.right:after {
+            border-right: 1rem solid transparent;
+            border-top: 1rem solid transparent;
+            border-left: 1rem solid black;
+            transform: rotate(45deg);
+            top: calc(0.5rem + 3px);
+            left: calc(-0.5rem - 3px); }
+        .wp-block-ant-carousel-carousel .carousel__image--wrapper div.image .point .point__text.bottom {
+          top: calc(100% + 1rem); }
+          .wp-block-ant-carousel-carousel .carousel__image--wrapper div.image .point .point__text.bottom:after {
+            border-left: 1rem solid transparent;
+            border-bottom: 1rem solid transparent;
+            border-top: 1rem solid black;
+            transform: rotate(-45deg);
+            top: calc(-0.5rem - 3px);
+            left: 1rem; }
+        .wp-block-ant-carousel-carousel .carousel__image--wrapper div.image .point .point__text:after {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0; }
+    .wp-block-ant-carousel-carousel .carousel__image--wrapper div.image span {
+      position: absolute;
+      right: 5px;
+      top: 5px; }
+
+
+/*# sourceMappingURL=index.css.map*/
